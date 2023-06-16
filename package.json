@@ -1,5 +1,5 @@
 {
-  "name": "@nut-tree/nut-js",
+  "name": "@chenyueban/nut-js",
   "version": "3.1.2",
   "license": "Apache-2.0",
   "main": "dist/index",
@@ -9,6 +9,9 @@
     "name": "Simon Hofmann",
     "email": "kontakt@s1h.org",
     "url": "https://s1h.org"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "homepage": "https://nutjs.dev",
   "repository": {
@@ -64,7 +67,7 @@
   "dependencies": {
     "@nut-tree/libnut": "2.5.2",
     "clipboardy": "2.3.0",
-    "jimp": "0.16.13",
+    "jimp": "0.22.8",
     "node-abort-controller": "2.0.0"
   },
   "devDependencies": {
